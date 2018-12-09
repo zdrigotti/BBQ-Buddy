@@ -1,0 +1,23 @@
+{
+  "name": "bbq-buddy",
+  "version": "1.0.0",
+  "description": "A Uber-esque application for grill rental",
+  "main": "server.js",
+  "scripts": {
+	"start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdrigotti/BBQ-Buddy.git"
+  },
+  "author": "Zach Rigotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zdrigotti/BBQ-Buddy/issues"
+  },
+  "homepage": "https://github.com/zdrigotti/BBQ-Buddy#readme",
+  "engines": {
+    "node": "10.14.1"
+  }
+}
