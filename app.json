@@ -6,9 +6,12 @@
   },
   "formation": {
   },
-  "addons": [
-
-  ],
+  "addons": [{
+   "plan": "heroku-postgresql:hobby-dev",
+   "options": {
+     "version": "10.6"
+   }
+}],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
